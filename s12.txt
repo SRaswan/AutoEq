@@ -5,3 +5,5 @@
 python -m autoeq --help
 
 python -m autoeq --input-file="measurements/oratory1990/data/in-ear/Shuoer S12.csv" --output-dir="my_results" --compensation="compensation/oratory1990.csv" --convolution-eq --parametric-eq --ten-band-eq --fs=44100,48000
+python -m autoeq --input-file="measurements/oratory1990/data/in-ear/Shuoer S12.csv" --output-dir="my_results" --compensation="compensation/oratory1990.csv" --convolution-eq --parametric-eq --ten-band-eq --fs=44100,48000 --treble-boost=3
+
